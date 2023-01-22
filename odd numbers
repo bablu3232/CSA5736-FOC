@@ -1,19 +1,9 @@
-#include<stdio.h>
-#include<conio.h>
+#include <stdio.h>
 
-int main()
-{
-    int N,i;
-    printf("enter the value of N (limit): ");
-    scanf("%d",&N);
-    printf("\n");
-    for(i=1;i<=N;i++)
-    {
-    	if(i=N)
-            printf("%d", i);
-        else
-            printf("%d,", i);
+int main() {
+    int i;
+    for (i = 1; i <= 10; i++) {
+        printf("%d\n", i*2-1);
     }
-    getch();
     return 0;
 }

@@ -1,0 +1,6 @@
+echo "enter the string"
+read a
+echo " the string in uppercase is: " $a|tr
+'[:lower:]''[:upper:]'
+echo "the string in lowercase is:" $a|tr
+'[:upper:]''[:lower:]'
